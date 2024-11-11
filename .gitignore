@@ -1,0 +1,14 @@
+
+# python ignore
+__pycache__
+
+# pip ignore
+.venv
+
+
+# llama index ignore
+.DS_Store
+
+# env ignore
+.env
+

@@ -1,0 +1,25 @@
+
+schema_registry:
+  path: ./schema_registry
+
+data_dictionary:
+  path: ./data_dictionary.json
+
+canonical_types:
+  path: ./canonical_types.json
+
+openai:
+  model: gpt-4o-mini
+  temperature: 0.5
+  max_tokens: 1000
+
+vector_store:
+  schema_collection_name: schema_rag
+  data_dictionary_collection_name: data_dictionary_rag
+  canonical_types_collection_name: canonical_types_rag
+  chunk_size: 1000
+  chunk_overlap: 200
+
+logging:
+  level: INFO
+  file: "schema_rag.log"
