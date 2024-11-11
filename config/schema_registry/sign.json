@@ -1,0 +1,22 @@
+{
+    "name": "sign",
+    "namespace": "sign",
+    "description": "sign schema registry",
+    "fields": [
+        {
+            "name": "name",
+            "type": "string",
+            "doc": "The name of the sign"
+        },
+        {
+            "name": "create",
+            "type": "long",
+            "doc": "The timestamp of when the sign was created"
+        },
+        {
+            "name": "update",
+            "type": "long",
+            "doc": "The timestamp of when the sign was updated"
+        }
+    ]
+}

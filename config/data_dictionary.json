@@ -1,0 +1,140 @@
+{
+    "name": "data_dictionary",
+    "namespace": "data_dictionary",
+    "description": "data dictionary",
+    "fields": [
+        {
+            "name": "name",
+            "type": "string",
+            "doc": "The name type",
+            "default_classification" : "CUSTOMER",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name": "Full Name",
+            "type": "string",
+            "doc": "The full name of the type",
+            "default_classification" : "CUSTOMER",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name": "Last Name",
+            "type": "string",
+            "doc": "The last name of the type",
+            "default_classification" : "CUSTOMER",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name": "Email",
+            "type": "string",
+            "doc": "The email of the type",
+            "default_classification" : "CUSTOMER",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name": "Phone",
+            "type": "string",
+            "doc": "The phone of the type",
+            "default_classification" : "CUSTOMER",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name": "Address",
+            "type": "string",
+            "doc": "The address of the type",
+            "default_classification" : "CUSTOMER",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name": "City",
+            "type": "string",
+            "doc": "The city of the type",
+            "default_classification" : "CUSTOMER",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name": "State",
+            "type": "string",
+            "doc": "The state of the type",
+            "default_classification" : "CUSTOMER",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name": "Zip",
+            "type": "string",
+            "doc": "The zip of the type",
+            "default_classification" : "RESTRICTED",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name": "Age",
+            "type": "int",
+            "doc": "The age of the type",
+            "default_classification" : "RESTRICTED",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name": "Gender",
+            "type": "string",
+            "doc": "The gender of the type",
+            "default_classification" : "RESTRICTED",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name": "Date of Birth",
+            "type": "string",
+            "doc": "The date of birth of the type",
+            "default_classification" : "RESTRICTED",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name": "SSN",
+            "type": "string",
+            "doc": "The SSN of the type",
+            "default_classification" : "CUSTOMER",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name": "Credit Card Number",
+            "type": "string",
+            "doc": "The credit card number of the type",
+            "default_classification" : "CUSTOMER",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name" : "Driver License Number",
+            "type": "string",
+            "doc": "The driver's license number of the type",
+            "default_classification" : "CUSTOMER",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name": "IP Address",
+            "type": "string",
+            "doc": "The IP address of the type",
+            "default_classification" : "RESTRICTED",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name": "MAC Address",
+            "type": "string",
+            "doc": "The MAC address of the type",
+            "default_classification" : "RESTRICTED",
+            "enhanced_classification" : "CUSTOMER"
+        },
+        {
+            "name": "URL",
+            "type": "string",
+            "doc": "The URL of the type",
+            "default_classification" : "RESTRICTED",
+            "enhanced_classification" : "RESTRICTED"
+        },
+        {
+            "name": "Domain Name",
+            "type": "string",
+            "doc": "The domain name of the type",
+            "default_classification" : "RESTRICTED",
+            "enhanced_classification" : "RESTRICTED"
+        }
+    ]
+}

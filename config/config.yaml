@@ -1,12 +1,12 @@
 
 schema_registry:
-  path: ./schema_registry
+  path: ./config/schema_registry
 
 data_dictionary:
-  path: ./data_dictionary.json
+  path: ./config/data_dictionary.json
 
 canonical_types:
-  path: ./canonical_types.json
+  path: ./config/canonical_types
 
 openai:
   model: gpt-4o-mini

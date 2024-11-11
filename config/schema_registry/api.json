@@ -1,0 +1,43 @@
+{
+    "name": "api",
+    "namespace": "api",
+    "description": "api schema registry",
+    "fields": [
+        {
+            "name": "name",
+            "type": [
+                "null",
+                "string"
+            ],
+            "default": null,
+            "doc": "The name of the api"
+        },
+        {
+            "name": "host",
+            "type": [
+                "null",
+                "string"
+            ],
+            "default": null,
+            "doc": "The host of the api"
+        },
+        {
+            "name": "create",
+            "type": [
+                "null",
+                "long"
+            ],
+            "default": null,
+            "doc": "The timestamp of when the api was created"
+        },
+        {
+            "name": "update",
+            "type": [
+                "null",
+                "long"
+            ],
+            "default": null,
+            "doc": "The timestamp of when the api was updated"
+        }
+    ]
+}
