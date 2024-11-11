@@ -23,3 +23,7 @@ vector_store:
 logging:
   level: INFO
   file: "schema_rag.log"
+
+
+bigquery:
+  sample_data_rows: 1000
