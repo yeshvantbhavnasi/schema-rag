@@ -11,7 +11,7 @@ def test_bq_read():
     })
     config = {
         "bigquery": {
-            "key_path": "./config/keys/service_account.json",
+            "key_path": "./config/test_keys/service_account.json",
         }
     }
     with patch('src.utils.bq_read.BQRead.read_table', return_value=mock_data):
