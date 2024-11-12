@@ -1,0 +1,73 @@
+{
+    "name": "user",
+    "namespace": "user",
+    "description": "user table",
+    "fields": [
+        {
+            "name": "user_id",
+            "type" : ["string", "null"],
+            "description": "the user id"
+        },
+        {
+            "name": "username",
+            "type" : ["string", "null"],
+            "description": "the user name"
+        },
+        {
+            "name": "fname",
+            "type" : ["string", "null"],
+            "description": "the user first name"
+        },
+        {
+            "name": "lname",
+            "type" : ["string", "null"],
+            "description": "the user last name"
+        },
+        {
+            "name": "address",
+            "type" : ["string", "null"],
+            "description": "the user address"
+        },
+        {
+            "name": "random_details",
+            "type" : ["string", "null"],
+            "description": "the user random details"
+        },
+        {
+            "name": "encrypted_content",
+            "type" : ["string", "null"],
+            "description": "the user encrypted content"
+        },
+        {
+            "name": "token",
+            "type" : ["string", "null"],
+            "description": "the user token"
+        },
+        {
+            "name": "enterprise_id",
+            "type" : ["string", "null"],
+            "description": "the user enterprise id"
+        },
+        {
+            "name": "file_id",
+            "type" : ["string", "null"],
+            "description": "the user file id"
+        },
+        {
+            "name": "email",
+            "type" : ["string", "null"],
+            "description": "the user email"
+        },
+        {
+            "name": "phone",
+            "type" : ["string", "null"],
+            "description": "the user phone"
+        },
+        {
+            "name": "created_at",
+            "type" : ["timestamp", "null"],
+            "description": "the user creation date"
+        }
+
+    ]
+}

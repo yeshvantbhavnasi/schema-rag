@@ -27,3 +27,6 @@ logging:
 
 bigquery:
   sample_data_rows: 1000
+  key_path: ./config/keys/service_account.json
+  project_id: montgomery-282015
+  dataset_id: autolog

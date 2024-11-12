@@ -1,0 +1,17 @@
+{
+    "name": "enterprise",
+    "namespace": "enterprise",
+    "description": "enterprise table",
+    "fields": [
+        {
+            "name": "enterprise_id",
+            "type" : ["string", "null"],
+            "description": "the enterprise id"
+        },
+        {
+            "name": "enterprise_name",
+            "type" : ["string", "null"],
+            "description": "the enterprise name"
+        }
+    ]
+}

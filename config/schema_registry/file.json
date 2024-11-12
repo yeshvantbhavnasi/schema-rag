@@ -1,0 +1,27 @@
+{
+    "name": "file",
+    "namespace": "file",
+    "description": "file table",
+    "fields": [
+        {
+            "name": "file_id",
+            "type" : ["string", "null"],
+            "description": "the file id"
+        },
+        {
+            "name": "file_name",
+            "type" : ["string", "null"],
+            "description": "the file name"
+        },
+        {
+            "name": "file_type",
+            "type" : ["string", "null"],
+            "description": "the file type"
+        },
+        {
+            "name": "file_size",
+            "type" : ["integer", "null"],
+            "description": "the file size"
+        }
+    ]
+}
